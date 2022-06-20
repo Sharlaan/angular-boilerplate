@@ -1,0 +1,64 @@
+{
+  "name": "project-name",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "description": "Angular14 boilerplate including Eslint and prettier",
+  "keywords": [],
+  "homepage": "production url where users will navigate",
+  "author": "Author Name <author.name@email.com>",
+  "maintainers": [],
+  "repository": {
+    "type": "git",
+    "url": "https://author.gitlab.com/npm/project-name.git"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --open",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "lint": "ng lint --fix"
+  },
+  "dependencies": {
+    "@angular/animations": "^14",
+    "@angular/common": "^14",
+    "@angular/compiler": "^14",
+    "@angular/core": "^14",
+    "@angular/forms": "^14",
+    "@angular/platform-browser": "^14",
+    "@angular/platform-browser-dynamic": "^14",
+    "@angular/router": "^14",
+    "rxjs": "~7",
+    "tslib": "^2",
+    "zone.js": "~0.11"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14",
+    "@angular-eslint/builder": "^14",
+    "@angular-eslint/eslint-plugin": "^14",
+    "@angular-eslint/eslint-plugin-template": "^14",
+    "@angular-eslint/schematics": "^14",
+    "@angular-eslint/template-parser": "^14",
+    "@angular/cli": "~14",
+    "@angular/compiler-cli": "^14",
+    "@types/jasmine": "~4",
+    "@typescript-eslint/eslint-plugin": "^5",
+    "@typescript-eslint/parser": "^5",
+    "eslint": "^8",
+    "eslint-config-prettier": "^8",
+    "eslint-plugin-prettier": "^4",
+    "jasmine-core": "~4",
+    "karma": "~6",
+    "karma-chrome-launcher": "~3",
+    "karma-coverage": "~2",
+    "karma-jasmine": "~5",
+    "karma-jasmine-html-reporter": "~2",
+    "prettier": "^2",
+    "prettier-eslint": "^15",
+    "typescript": "^4"
+  }
+}

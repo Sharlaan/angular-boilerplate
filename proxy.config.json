@@ -1,0 +1,9 @@
+{
+  "api/v1": {
+    "target": "https://api.base.url",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": { "/api/v1": "" }
+  }
+}
