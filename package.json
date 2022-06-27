@@ -21,7 +21,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@angular/animations": "^14",
@@ -56,6 +57,7 @@
     "jest": "latest",
     "prettier": "^2",
     "prettier-eslint": "^15",
-    "typescript": "^4"
+    "typescript": "^4",
+    "husky": "^8.0.0"
   }
 }
