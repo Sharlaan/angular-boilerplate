@@ -73,7 +73,8 @@
             },
             "development": {
               "browserTarget": "project-name:build:development",
-              "proxyConfig": "proxy.config.json"
+              "proxyConfig": "proxy.config.json",
+              "open": true
             }
           }
         },
@@ -95,6 +96,7 @@
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
+            "fix": true,
             "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
           }
         }
