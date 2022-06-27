@@ -38,7 +38,7 @@
     "zone.js": "~0.11"
   },
   "devDependencies": {
-    "@angular-builders/jest": "latest",
+    "@angular-builders/jest": "^14",
     "@angular-devkit/build-angular": "^14",
     "@angular-eslint/builder": "^14",
     "@angular-eslint/eslint-plugin": "^14",
@@ -47,17 +47,18 @@
     "@angular-eslint/template-parser": "^14",
     "@angular/cli": "~14",
     "@angular/compiler-cli": "^14",
-    "@briebug/jest-schematic": "^4.0.0",
-    "@types/jest": "latest",
+    "@briebug/jest-schematic": "^4",
+    "@types/jest": "^28",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
     "eslint": "^8",
     "eslint-config-prettier": "^8",
     "eslint-plugin-prettier": "^4",
-    "jest": "latest",
+    "husky": "^8",
+    "jest": "^28",
     "prettier": "^2",
     "prettier-eslint": "^15",
-    "typescript": "^4",
-    "husky": "^8.0.0"
+    "stylelint-config-recommended": "^8",
+    "typescript": "<4.8"
   }
 }
