@@ -45,3 +45,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Interesting resources
 
 [ESLint/Prettier integration with Angular](https://dev.to/eneajaho/configure-prettier-and-eslint-with-angular-526c)
+
+[Jest integration](https://timdeschryver.dev/blog/integrate-jest-into-an-angular-application-and-library) : simply execute `ng add @briebug/jest-schematic`
