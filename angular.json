@@ -28,6 +28,7 @@
             "styles": ["src/styles.scss"],
             "scripts": []
           },
+          "defaultConfiguration": "production",
           "configurations": {
             "production": {
               "budgets": [
@@ -52,30 +53,29 @@
             },
             "development": {
               "buildOptimizer": false,
-              "optimization": false,
-              "vendorChunk": true,
               "extractLicenses": false,
+              "namedChunks": true,
+              "optimization": false,
               "sourceMap": true,
-              "namedChunks": true
+              "vendorChunk": true
             }
-          },
-          "defaultConfiguration": "production"
+          }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "project-name:build",
-            "proxyConfig": "proxy.config.json"
+            "browserTarget": "project-name:build"
           },
+          "defaultConfiguration": "development",
           "configurations": {
             "production": {
               "browserTarget": "project-name:build:production"
             },
             "development": {
-              "browserTarget": "project-name:build:development"
+              "browserTarget": "project-name:build:development",
+              "proxyConfig": "proxy.config.json"
             }
-          },
-          "defaultConfiguration": "development"
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -86,10 +86,10 @@
         "test": {
           "builder": "@angular-builders/jest:run",
           "options": {
-            "tsConfig": "tsconfig.spec.json",
             "assets": ["src/favicon.ico", "src/assets"],
+            "scripts": [],
             "styles": ["src/styles.scss"],
-            "scripts": []
+            "tsConfig": "tsconfig.spec.json"
           }
         },
         "lint": {
