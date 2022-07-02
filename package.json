@@ -13,7 +13,7 @@
     "url": "https://author.gitlab.com/npm/project-name.git"
   },
   "engines": {
-    "node": "18"
+    "node": "16"
   },
   "scripts": {
     "ng": "ng",
@@ -61,5 +61,8 @@
     "prettier-eslint": "^15",
     "stylelint-config-recommended": "^8",
     "typescript": "<4.8"
+  },
+  "volta": {
+    "node": "16.15.1"
   }
 }
