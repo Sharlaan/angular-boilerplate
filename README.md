@@ -47,3 +47,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [ESLint/Prettier integration with Angular](https://dev.to/eneajaho/configure-prettier-and-eslint-with-angular-526c)
 
 [Jest integration](https://timdeschryver.dev/blog/integrate-jest-into-an-angular-application-and-library) : simply execute `ng add @briebug/jest-schematic`
+
+[Setup Sonar-Qube with Angular](https://medium.com/beingcoders/setup-sonarqube-with-angular-project-in-6-minutes-57a87b3ca8c4)
